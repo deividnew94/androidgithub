@@ -23,6 +23,8 @@ public class Principal extends Activity implements OnClickListener
     @Override
     protected void onCreate(Bundle savedInstanceState) 
     {
+    	
+    	//COMENTARIO AGREGADO DESDE UN CLIENTE
         super.onCreate(savedInstanceState);
         setContentView(R.layout.principal);
         TXTNOMBRE=(EditText)findViewById(R.id.TXTNOMBRE);
