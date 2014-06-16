@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btnRegistrar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical" >
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrese en el Sistema"
+            android:id="@+id/textView" 
+            android:layout_gravity="center"
+           
+            android:textColor="#000000"/>
+
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:text="Nombres"
+            android:id="@+id/textView2"
+            android:textColor="#000000"
+            android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="Nombres"
+        android:textColor="#000000"
+        android:textSize="15dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:text="Apellidos"
+            android:textColor="#000000"
+            android:id="@+id/textView3"
+            android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Apellidos"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:text="Email"
+            android:id="@+id/textView4"
+            android:textSize="15dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:text="Tipo de Usuario"
+            android:id="@+id/textView5"
+            android:textSize="15dp"/>
+
+     <Spinner
+         android:id="@+id/uname2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:entries="@array/spinnerItems"
+         android:textColor="#000000"
+         android:textSize="15dp" />
+
+     <TextView
+         android:id="@+id/textView6"
+         android:layout_width="125dp"
+         android:layout_height="40dp"
+         android:text="Password"
+         android:textColor="#000000"
+         android:textSize="15dp" />
+
+     <EditText
+         android:id="@+id/pword"
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:ems="10"
+         android:hint="Password"
+         android:inputType="textPassword"
+         android:textColor="#000000"
+         android:textSize="15dp" />
+
+     <Button
+         android:id="@+id/register"
+         android:layout_width="169dp"
+         android:layout_height="40dp"
+         android:text="Registrese"
+         android:textColor="#000000"
+         android:textSize="13dp" />
+
+     <Button
+         android:id="@+id/bktologin"
+         android:layout_width="175dp"
+         android:layout_height="40dp"
+         android:text="Volver a Loguin"
+         android:textColor="#000000"
+         android:textSize="13dp" />
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:textColor="#000000"
+            android:id="@+id/register_error"/>
+    </LinearLayout>
+    
+
+</ScrollView>

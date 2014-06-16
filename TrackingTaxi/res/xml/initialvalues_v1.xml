@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<values>
+    <row table="Cliente" id="1">        
+        <field name="nombres" value="Dodoria Bufalo" />
+        <field name="telefono" value="965375357" />
+        <field name="email" value="dodoria_bufalo@gmail.com" />
+        <field name="password" value="147" />
+    </row>
+    <row table="Cliente" id="2">        
+        <field name="nombres" value="Eduardo Pampaniaupa" />
+        <field name="telefono" value="954986124" />
+        <field name="email" value="edu_2012@gmail.com" />
+        <field name="password" value="123" />
+    </row>
+    <row table="Direccion" id="1">  
+        <field name="cliente_id" value="1" />      
+        <field name="distrito" value="San Martin de Porres" />
+        <field name="descripcion" value="cal. tico tico 125" />
+    </row>
+    <row table="Direccion" id="2">  
+        <field name="cliente_id" value="2" />      
+        <field name="distrito" value="Santa Anita" />
+        <field name="descripcion" value="cal. los Quechuas 255" />
+    </row>
+    
+    <row table="Vehiculo" id="1">        
+        <field name="fabricante" value="Toyota" />
+        <field name="placa" value="MX5-Z153" />
+        <field name="numero_registro" value="10001" />
+        <field name="modelo" value="Yaris" />
+    </row>
+     <row table="Vehiculo" id="2">        
+        <field name="fabricante" value="Nissan" />
+        <field name="placa" value="CH4-P156" />
+        <field name="numero_registro" value="10002" />
+        <field name="modelo" value="Leaf" />
+    </row>
+      <row table="Vehiculo" id="3">        
+        <field name="fabricante" value="Mitsubishi" />
+        <field name="placa" value="ZH7-50J2" />
+        <field name="numero_registro" value="10002" />
+        <field name="modelo" value="Lancer" />
+    </row>
+    
+	<row table="Taxista" id="1">		
+	    <field name="nombres" value="Carlo" />
+	    <field name="apellidos" value="Aristizaval" />
+	    <field name="usuario" value="caristi4" />
+	    <field name="password" value="123" />
+	    <field name="email" value="kalitoh1990@gmail.com" />
+	    <field name="vehiculoid" value="1" />
+	</row>
+	<row table="Taxista" id="2">		
+	    <field name="nombres" value="Eduardo" />
+	    <field name="apellidos" value="Pampañaupa" />
+	    <field name="usuario" value="egarcia" />
+	    <field name="password" value="147" />
+	    <field name="email" value="edu_2012@gmail.com" />
+	    <field name="vehiculoid" value="2" />
+	</row>
+	<row table="Taxista" id="3">		
+	    <field name="nombres" value="David" />
+	    <field name="apellidos" value="Bufalo" />
+	    <field name="usuario" value="dhernandez" />
+	    <field name="password" value="159" />
+	    <field name="email" value="bufalo.tico.tico15@gmail.com" />
+	    <field name="vehiculoid" value="3" />
+	</row>
+	<row table="Taxista" id="4">
+		<field name="taxista_id" value="4" />
+	    <field name="nombres" value="Abel" />
+	    <field name="apellidos" value="Olivitos" />
+	    <field name="usuario" value="aolivitos" />
+	    <field name="password" value="789" />
+	    <field name="email" value="lobo24@gmail.com" />
+	    <field name="vehiculoid" value="4" />
+	</row>
+	<row table="Taxista" id="5">		
+	    <field name="nombres" value="Marcial" />
+	    <field name="apellidos" value="Dormilon" />
+	    <field name="usuario" value="mdiaz56" />
+	    <field name="password" value="357" />
+	    <field name="email" value="dormilon.suenio23@gmail.com" />
+	    <field name="vehiculoid" value="5" />
+	</row>
+	
+	<row table="Taxista_Posicion" id="1">		
+	    <field name="taxista_id" value="1" />
+	    <field name="latitud" value="36.73887160072011" />
+	    <field name="longitud" value="-19.07224062499995" />
+	</row>
+	
+	<row table="Viajes" id="1">		
+	    <field name="taxista_id" value="1" />
+	    <field name="cliente_id" value="1" />
+	    <field name="fecha" value="11-01-2014 06:00:00" />
+	</row>
+</values>
