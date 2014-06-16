@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="bd_TrackingTaxi" version="2">  
+  <table name="Cliente" to-string="%name%">     
+     <field name="nombres" obligatory="true" type="text" size="50"/>
+     <field name="apellidos" obligatory="true" type="text" size="50"/>
+     <field name="dni" obligatory="true" type="text" size="8"/>
+     <field name="telefono" obligatory="true" type="text" size="10"/>
+     <field name="email" obligatory="true" type="text" size="100"/>  
+  </table>
+  
+  <table name="Direccion" to-string="%name%">  
+      <field name="cliente_id" type="foreign-key" foreign-table="Cliente"/>   
+     <field name="distrito" obligatory="true" type="text" size="50"/>
+     <field name="descripcion" obligatory="true" type="text" size="200"/>
+  </table>
+  	 
+  <table name="Vehiculo" to-string="%name%">      
+     <field name="fabricante" obligatory="true" type="text" size="50"/>
+  	 <field name="placa" obligatory="true" type="text" size="10"/>
+  	 <field name="numero_registro" obligatory="true" type="text" size="10"/>
+  	 <field name="modelo" obligatory="true" type="text" size="50"/>
+  </table> 
+  
+  <table name="Taxista" to-string="%fecha%">        
+    <field name="nombres" obligatory="true" type="text" size="50"/>
+    <field name="apellidos" obligatory="true" type="text" size="50"/>
+    <field name="usuario" obligatory="true" type="text" size="10"/>
+    <field name="password" obligatory="true" type="text" size="10"/>
+    <field name="email" obligatory="true" type="text" size="100"/>
+    <field name="vehiculoid" type="foreign-key" foreign-table="Vehiculo"/>
+  </table>  
+  
+  <table name="Taxista_Posicion" to-string="%name%">  
+     <field name="taxista_id" type="foreign-key" foreign-table="Taxista"/>
+  	 <field name="latitud" obligatory="true" type="text" size="10"/>
+  	 <field name="longitud" obligatory="true" type="text" size="10"/>
+  </table> 
+  
+  <table name="Viajes" to-string="%name%">
+     <field name="taxista_id" type="foreign-key" foreign-table="Taxista"/>
+     <field name="cliente_id" type="foreign-key" foreign-table="Cliente"/>
+  	 <field name="fecha" obligatory="true" type="date"/>
+  </table> 
+  
+  
+ </database>
