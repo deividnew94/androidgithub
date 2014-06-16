@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<database name="db_sise" version="1">
+  <table name="CFCorrelativo" to-string="%fecha%">
+    <field name="idUsuario" obligatory="true" type="integer" />
+    <field name="fecha" obligatory="true" type="text" size="8"/>
+    <field name="ultNumProforma" obligatory="true" type="text" size="20"/>
+    <field name="ultNumPedido" obligatory="true" type="text" size="20"/>
+  </table>  
+		
+ </database>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<values>
+	<row table="CFCorrelativo" id="1">
+		<field name="idUsuario" value="1" />
+		<field name="fecha" value="2011109" />
+		<field name="ultNumProforma" value="1" />
+		<field name="ultNumPedido" value="1" />
+	</row>
+	<row table="CFCorrelativo" id="2">
+		<field name="idUsuario" value="2" />
+		<field name="fecha" value="2011109" />
+		<field name="ultNumProforma" value="2" />
+		<field name="ultNumPedido" value="2" />
+	</row>
+	<row table="CFCorrelativo" id="3">
+		<field name="idUsuario" value="3" />
+		<field name="fecha" value="2011109" />
+		<field name="ultNumProforma" value="3" />
+		<field name="ultNumPedido" value="3" />
+	</row>
+	<row table="CFCorrelativo" id="4">
+		<field name="idUsuario" value="4" />
+		<field name="fecha" value="2011109" />
+		<field name="ultNumProforma" value="4" />
+		<field name="ultNumPedido" value="4" />
+	</row>
+	<row table="CFCorrelativo" id="5">
+		<field name="idUsuario" value="5" />
+		<field name="fecha" value="2011109" />
+		<field name="ultNumProforma" value="5" />
+		<field name="ultNumPedido" value="5" />
+	</row>
+	<row table="CFCorrelativo" id="6">
+		<field name="idUsuario" value="6" />
+		<field name="fecha" value="2011109" />
+		<field name="ultNumProforma" value="6" />
+		<field name="ultNumPedido" value="6" />
+	</row>
+</values>
