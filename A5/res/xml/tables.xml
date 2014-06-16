@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database name="bd_TrackingTaxi" version="2"> 
+    
+  <table name="Vehiculo" to-string="%name%">      
+     <field name="Fabricante" obligatory="true" type="text" size="50"/>
+  	 <field name="Placa" obligatory="true" type="text" size="50"/>
+  	 <field name="Numero_Registro" obligatory="true" type="text" size="50"/>
+  	 <field name="Modelo" obligatory="true" type="text" size="50"/>
+  	 <field name="Costo_Hora" obligatory="true" type="text" size="50"/>
+  	 <field name="Foto" obligatory="true" type="blob" />
+  </table> 
+  
+  <table name="Cliente" to-string="%name%">     
+     <field name="Dni" obligatory="true" type="text" size="8"/>
+     <field name="Nombres" obligatory="true" type="text" size="50"/>
+     <field name="Email" obligatory="true" type="text" size="50"/> 
+     <field name="Contrasena" obligatory="true" type="text" size="12"/>
+     <field name="Telefono" obligatory="true" type="text" size="15"/>
+     <field name="Foto" obligatory="true" type="blob" />
+     <field name="Fecha_Registro" obligatory="true" type="date" />
+     <field name="Estado" obligatory="true" type="numeric"/>
+  </table>
+  
+  <table name="Distrito" to-string="%name%">  
+      <field name="Nombre_Distrito" obligatory="true" type="text" size="50"/>
+  </table>
+    
+  <table name="Taxista" to-string="%fecha%">    
+     <field name="Dni" obligatory="true" type="text" size="8"/>
+     <field name="Nombres" obligatory="true" type="text" size="50"/>
+     <field name="Email" obligatory="true" type="text" size="50"/> 
+     <field name="Contrasena" obligatory="true" type="text" size="12"/>
+     <field name="Telefono" obligatory="true" type="text" size="15"/>
+     <field name="Direccion" obligatory="true" type="text" size="50"/>
+     <field name="ID_Distrito" type="foreign-key" foreign-table="Distrito" />
+     <field name="Foto" obligatory="true" type="blob" />
+     <field name="Fecha_Registro" obligatory="true" type="date" />
+     <field name="ID_Vehiculo" type="foreign-key" foreign-table="Vehiculo" />
+     <field name="Estado" obligatory="true" type="numeric"/>
+  </table>  
+  
+  <table name="Taxista_Detalle" to-string="%name%">  
+  	 <field name="latitud" obligatory="true" type="text" size="100"/>
+  	 <field name="longitud" obligatory="true" type="text" size="100"/>
+  	 <field name="Estado" obligatory="true" type="numeric"/>
+  	 <field name="Hora_Fecha" obligatory="true" type="date"/>
+  	 <field name="ID_Taxista" type="foreign-key" foreign-table="Taxista" />
+  </table> 
+  
+  <table name="Push_Mensaje" to-string="%name%">
+  	 <field name="Mensaje" obligatory="true" type="text" size="255"/>
+  	 <field name="ID_Taxista" type="foreign-key" foreign-table="Taxista" />
+  	 <field name="ID_Cliente" type="foreign-key" foreign-table="Cliente" />
+  </table> 
+  
+  <table name="Viajes" to-string="%name%">
+  	 <field name="Fecha_Inicio" obligatory="true" type="date"/>
+  	 <field name="Estado_Viaje" obligatory="numeric" />
+  	 <field name="ID_Taxista" type="foreign-key" foreign-table="Taxista" />
+  	 <field name="Fecha_Fin" obligatory="true" type="date"/>
+  	 <field name="ID_Cliente" type="foreign-key" foreign-table="Cliente" />
+  </table> 
+  
+   <table name="Estado" to-string="%name%">
+  	 <field name="Descripcion" obligatory="true" type="text" size="50"/>
+  	 <field name="latitud" obligatory="true" type="text" size="100"/>
+  	 <field name="longitud" obligatory="true" type="text" size="100"/>
+  	 <field name="Hora_Fecha" obligatory="true" type="date"/>
+  	 <field name="ID_Viaje" type="foreign-key" foreign-table="Viaje" />
+  </table> 
+  
+ </database>

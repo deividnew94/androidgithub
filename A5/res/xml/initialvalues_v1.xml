@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<values>
+    
+    <row table="Vehiculo" id="1">        
+        <field name="Fabricante" value="Toyota" />
+        <field name="Placa" value="MX5-Z153" />
+        <field name="Numero_Registro" value="10001" />
+        <field name="Modelo" value="Yaris" />
+        <field name="Costo_Hora" value="12" />
+        <field name="Foto" value="" />
+    </row>
+     <row table="Vehiculo" id="2">        
+        <field name="Fabricante" value="Nissan" />
+        <field name="Placa" value="CH4-P156" />
+        <field name="Numero_Registro" value="10002" />
+        <field name="Modelo" value="Leaf" />
+        <field name="Costo_Hora" value="12" />
+        <field name="Foto" value="" />
+    </row>
+      <row table="Vehiculo" id="3">        
+        <field name="Fabricante" value="Mitsubishi" />
+        <field name="Placa" value="ZH7-50J2" />
+        <field name="Numero_Registro" value="10003" />
+        <field name="Modelo" value="Lancer" />
+        <field name="Costo_Hora" value="12" />
+        <field name="Foto" value="" />
+    </row>
+    
+    <row table="Cliente" id="1"> 
+        <field name="Dni" value="45368955" />   
+        <field name="Nombres" value="Dodoria" />
+        <field name="Email" value="dodoria_bufalo@gmail.com" />
+        <field name="Contrasena" value="123" />
+        <field name="Telefono" value="965375357" />
+        <field name="Foto" value="" />
+        <field name="Fecha_Registro" value="20-11-2013" />
+        <field name="Estado" value="0" />
+    </row>
+    <row table="Cliente" id="2">
+        <field name="Dni" value="32456525" />   
+        <field name="Nombres" value="Edupampa" />
+        <field name="Email" value="edu_2012@gmail.com" />
+        <field name="Contrasena" value="123" />
+        <field name="Telefono" value="954986124" />
+        <field name="Foto" value="" />
+        <field name="Fecha_Registro" value="15-05-2013" />
+        <field name="Estado" value="0" />
+    </row>
+    
+    <row table="Distrito" id="00001">       
+        <field name="Nombre_Distrito" value="Ancon" />
+    </row>
+    <row table="Distrito" id="00002">     
+        <field name="Nombre_Distrito" value="Ate" />
+    </row>
+    <row table="Distrito" id="00003">     
+        <field name="Nombre_Distrito" value="Barranco" />
+    </row>
+    <row table="Distrito" id="00004">     
+        <field name="Nombre_Distrito" value="Breña" />
+    </row>
+    <row table="Distrito" id="00005">     
+        <field name="Nombre_Distrito" value="Carabayllo" />
+    </row>
+    <row table="Distrito" id="00006">     
+        <field name="Nombre_Distrito" value="Comas" />
+    </row>
+    <row table="Distrito" id="00007">     
+        <field name="Nombre_Distrito" value="Chaclacayo" />
+    </row>
+    <row table="Distrito" id="00008">     
+        <field name="Nombre_Distrito" value="Cieneguilla" />
+    </row>
+    <row table="Distrito" id="00009">     
+        <field name="Nombre_Distrito" value="Chorrillos" />
+    </row>
+    <row table="Distrito" id="00010">     
+        <field name="Nombre_Distrito" value="El Agustino" />
+    </row>
+    <row table="Distrito" id="00011">     
+        <field name="Nombre_Distrito" value="Independencia" />
+    </row>
+    <row table="Distrito" id="00012">     
+        <field name="Nombre_Distrito" value="Jesus Maria" />
+    </row>
+    <row table="Distrito" id="00013">     
+        <field name="Nombre_Distrito" value="La Molina" />
+    </row>
+    <row table="Distrito" id="00014">     
+        <field name="Nombre_Distrito" value="La Victoria" />
+    </row>
+    <row table="Distrito" id="00015">     
+        <field name="Nombre_distrito" value="Lince" />
+    </row>
+    <row table="Distrito" id="00016">     
+        <field name="Nombre_Distrito" value="Lima" />
+    </row>
+    <row table="Distrito" id="00017">     
+        <field name="Nombre_Distrito" value="Los Olivos" />
+    </row>
+    <row table="Distrito" id="00018">     
+        <field name="Nombre_Distrito" value="Lurigancho" />
+    </row>
+    <row table="Distrito" id="00019">     
+        <field name="Nombre_Distrito" value="Lurin" />
+    </row>
+    <row table="Distrito" id="00020">     
+        <field name="Nombre_Distrito" value="Lurigancho" />
+    </row>
+    <row table="Distrito" id="00021">     
+        <field name="Nombre_Distrito" value="Magdalena del Mar" />
+    </row>
+    <row table="Distrito" id="00022">     
+        <field name="Nombre_Distrito" value="Miraflores" />
+    </row>
+    <row table="Distrito" id="00023">     
+        <field name="Nombre_Distrito" value="Pachacamac" />
+    </row>
+    <row table="Distrito" id="00024">     
+        <field name="Nombre_Distrito" value="Pucusana" />
+    </row>
+    <row table="Distrito" id="00025">     
+        <field name="Nombre_Distrito" value="Pueblo Libre" />
+    </row>
+    <row table="Distrito" id="00026">     
+        <field name="Nombre_Distrito" value="Puente Piedra" />
+    </row>
+    <row table="Distrito" id="00027">     
+        <field name="Nombre_Distrito" value="Punta Negra" />
+    </row>
+    <row table="Distrito" id="00028">     
+        <field name="Nombre_Distrito" value="Punta Hermosa" />
+    </row>
+    <row table="Distrito" id="00029">     
+        <field name="Nombre_Distrito" value="Rimac" />
+    </row>
+    <row table="Distrito" id="00030">     
+        <field name="Nombre_Distrito" value="San Bartolo" />
+    </row>
+    <row table="Distrito" id="00031">     
+        <field name="Nombre_Distrito" value="San Isidro" />
+    </row>
+    <row table="Distrito" id="00032">     
+        <field name="Nombre_Distrito" value="Santa Anita" />
+    </row>
+    <row table="Distrito" id="00033">     
+        <field name="Nombre_Distrito" value="San Juan De Miraflores" />
+    </row>
+    <row table="Distrito" id="00034">     
+        <field name="Nombre_Distrito" value="San Luis" />
+    </row>
+    <row table="Distrito" id="00035">     
+        <field name="Nombre_Distrito" value="San Martin De Porres" />
+    </row>
+    <row table="Distrito" id="00036">     
+        <field name="Nombre_Distrito" value="San Miguel" />
+    </row>
+    <row table="Distrito" id="00037">     
+        <field name="Nombre_Distrito" value="Santiago De Surco" />
+    </row>
+    <row table="Distrito" id="00038">     
+        <field name="Nombre_Distrito" value="Surquillo" />
+    </row>
+    <row table="Distrito" id="00039">     
+        <field name="Nombre_Distrito" value="San Juan De Lurigancho" />
+    </row>
+    <row table="Distrito" id="00040">     
+        <field name="Nombre_Distrito" value="Santa Maria Del Mar" />
+    </row>
+    <row table="Distrito" id="00041">     
+        <field name="Nombre_Distrito" value="Santa Rosa" />
+    </row>
+    <row table="Distrito" id="00042">     
+        <field name="Nombre_Distrito" value="San Borja" />
+    </row>
+    <row table="Distrito" id="00043">     
+        <field name="Nombre_Distrito" value="Villa El Salvador" />
+    </row>
+    <row table="Distrito" id="00044">     
+        <field name="Nombre_Distrito" value="Villa Maria del Triunfo" />
+    </row>
+    <row table="Distrito" id="00045">     
+        <field name="Nombre_Distrito" value="Callao" />
+    </row>   
+    <row table="Distrito" id="00046">     
+        <field name="Nombre_Distrito" value="Bellavista" />
+    </row>
+     <row table="Distrito" id="00047">     
+        <field name="Nombre_Distrito" value="Carmen de la Legua-Reynoso'" />
+    </row>
+     <row table="Distrito" id="00048">     
+        <field name="Nombre_Distrito" value="La Perla" />
+    </row>
+     <row table="Distrito" id="00049">     
+        <field name="Nombre_Distrito" value="La Punta" />
+    </row>
+     <row table="Distrito" id="00050">     
+        <field name="Nombre_Distrito" value="Ventanilla" />
+    </row>
+   
+        
+	<row table="Taxista" id="1">	
+	    <field name="Dni" value="46345814" />
+	    <field name="Nombres" value="Carlo" />
+	    <field name="Email" value="kalitoh1990@gmail.com" />
+	    <field name="Contrasena" value="123" />
+	    <field name="Telefono" value="986194673" />
+	    <field name="Direccion" value="Cal. Germania 198" />
+	    <field name="ID_Distrito" value="44" />
+	    <field name="Foto" value="" />
+	    <field name="Fecha_Registro" value="16-05-2013" />
+	    <field name="ID_Vehiculo" value="1" />
+	    <field name="Estado" value="0" />  
+	</row>
+	<row table="Taxista" id="2">
+	    <field name="Dni" value="52549862" />
+	    <field name="Nombres" value="Eduardo Pampañaupa Mamani" />
+	    <field name="Email" value="eduardo_2012@gmail.com" />
+	    <field name="Contrasena" value="147" />
+	    <field name="Telefono" value="953996007" />
+	    <field name="Direccion" value="Cal. Germania 198" />
+	    <field name="ID_Distrito" value="31" />
+	    <field name="Foto" value="" />
+	    <field name="Fecha_Registro" value="02-04-2012" />
+	    <field name="ID_Vehiculo" value="2" />
+	    <field name="Estado" value="0" /> 
+	</row>
+	<row table="Taxista" id="3">		
+	    <field name="Dni" value="34269856" />
+	    <field name="Nombres" value="David Hernandez de la Cruz" />
+	    <field name="Email" value="bufalo.ticotico15@gmail.com" />
+	    <field name="Contrasena" value="147" />
+	    <field name="Telefono" value="965375357" />
+	    <field name="Direccion" value="Cal. los Bufalos 125" />
+	    <field name="ID_Distrito" value="34" />
+	    <field name="Foto" value="" />
+	    <field name="Fecha_Registro" value="18-05-2013" />
+	    <field name="ID_Vehiculo" value="1" />
+	    <field name="Estado" value="0" /> 
+	</row>
+	<row table="Taxista" id="4">
+	    <field name="Dni" value="21654785" />
+	    <field name="Nombres" value="Abel Olivitos Villanueva" />
+	    <field name="Email" value="lobo24@gmail.com" />
+	    <field name="Contrasena" value="357" />
+	    <field name="Telefono" value="997562492" />
+	    <field name="Direccion" value="Cal. Bonus 542" />
+	    <field name="ID_Distrito" value="6" />
+	    <field name="Foto" value="" />
+	    <field name="Fecha_Registro" value="26-10-2013" />
+	    <field name="ID_Vehiculo" value="2" />
+	    <field name="Estado" value="0" /> 
+	</row>
+	<row table="Taxista" id="5">
+	    <field name="Dni" value="65322658" />
+	    <field name="Nombres" value="Marcial Diaz Muñoz" />
+	    <field name="Email" value="dormilon.suenio23@gmail.com" />
+	    <field name="Contrasena" value="159" />
+	    <field name="Telefono" value="976228725" />
+	    <field name="Direccion" value="Cal. Pilon 412" />
+	    <field name="ID_Distrito" value="15" />
+	    <field name="Foto" value="" />
+	    <field name="Fecha_Registro" value="20-09-2012" />
+	    <field name="ID_Vehiculo" value="1" />
+	    <field name="Estado" value="0" /> 
+	</row>
+	
+	<row table="Taxista_Detalle" id="1">		
+	    <field name="latitud" value="36.73887160072011" />
+	    <field name="longitud" value="-19.07224062499995" />
+	    <field name="Estado" value="0" />
+	    <field name="Hora_Fecha" value="24-01-2014 00:00:00" />
+	    <field name="ID_Taxista" value="2" />
+	</row>
+	
+	<row table="Push_Mensaje" id="1">		
+	    <field name="Mensaje" value="Pampano" />
+	    <field name="ID_Taxista" value="2" />
+	    <field name="ID_Cliente" value="1" />
+	</row>
+	
+	<row table="Viajes" id="1">		
+	    <field name="Fecha_Inicio" value="11-01-2014 05:00:00" />
+	    <field name="Estado_Viaje" value="1" />
+	    <field name="ID_Taxista" value="2" />
+	    <field name="Fecha_Fin" value="11-01-2014 06:00:00" />
+	    <field name="ID_Cliente" value="1" /> 
+	</row>
+	
+	<row table="Estado" id="1">		
+	    <field name="Descripcion" value="Eres niaupa" />
+	    <field name="latitud" value="36.73887160072011" />
+	    <field name="longitud" value="-19.07224062499995" />
+	    <field name="Hora_Fecha" value="11-01-2014 06:00:00" />
+	    <field name="ID_Viaje" value="1" /> 
+	</row>
+</values>

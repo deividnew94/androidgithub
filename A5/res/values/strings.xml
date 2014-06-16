@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tracking Taxista</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="imgvTaxi">Taxi</string>
+    <string name="title_activity_activity__login">Login Taxista</string>
+    <string name="txtvUsuario">Usuario</string>
+    <string name="txtvPassword">Password</string>
+    <string name="btnIniciarSesion">IniciarSesion</string>
+    <string name="btnRegistrate">Registrate</string>
+    <string name="txtvOlvideMiPassword">Olvide Mi Password</string>
+    <string name="imgv_Taxista">Taxista</string>
+    <string name="txtvError">Error</string>
+    <string name="txtvAviso">Usuario o Password Incorrectos</string>
+    <string name="imgvError">Error</string>
+    <string name="title_activity_activity__inicio">Inicio</string>
+    <string name="title_activity_activity__registrate">Registro de Taxista</string>
+    <string name="txtvNombres">Nombres</string>
+    <string name="txtvApellidos">Apellidos</string>
+    <string name="txtvUser">Usuario</string>
+    <string name="txtvPass">Password</string>
+    <string name="txtvVehiculo">Vehiculo</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="title_activity_activity__olvide_mi_password">Olvide Mi Password</string>
+    <string name="txtvEmail">Email</string>
+    <string name="txtvMensaje">Ingresa tu correo electronico para enviarte una nueva contraseña</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="txtvDni">DNI</string>
+    <string name="txtvTelefono">Telefono</string>
+    <string name="txtDireccion">Direccion</string>
+    <string name="txtvDistrito">Distrito</string>
+    <string name="txtvFoto">Foto</string>
+    <string name="btnCargar">Cargar</string>
+
+   <string-array name="pais">
+      <item>España</item>
+      <item>Francia</item>
+      <item>Alemania</item>
+   </string-array>
+   <string-array name="codigopais">
+      <item>ESP</item>
+      <item>FRA</item>
+      <item>ALE</item>
+   </string-array>
+</resources>
