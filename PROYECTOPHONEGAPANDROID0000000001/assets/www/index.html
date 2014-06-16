@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MI PRIMERA PAGINA</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<script type="text/javascript" src="cordova-2.3.0.js"></script>
+		<link rel="stylesheet" href="jquery.mobile-1.3.0.min.css" />
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+		<script src="jquery-1.8.1.min.js" type="text/javascript"></script>
+	    <script src="jquery.mobile.min.js" type="text/javascript"></script>
+	</head>
+	<body>
+	<div data-role="page" id="page1">
+		<div data-theme="a" data-role="header">
+        	<h3>
+            	Auttentificacion de Usuario
+            </h3>
+        </div>
+        <div data-role="content">
+        	<div data-role="fieldcontain">
+            	<label for="textinput3">
+                	Usuario
+                </label>
+                <input name="txtusuario" id="txtusuario" placeholder="" value="" type="text">
+            </div>
+            <div data-role="fieldcontain">
+            	<label for="textinput4">
+                	Password
+                </label>
+                <input name="txtclave" id="txtclave" placeholder="" value="" type="text">
+            </div>
+            <a data-role="button" href="#" id="botonLogin" data-theme="b">
+            	Login
+            </a>
+        </div>
+	</div>
+    
+    <div data-role="page" id="home">
+    	<div data-role="header">
+        	<h1>Bienvenido a la Aplicacion</h1>
+        </div>
+        <div data-role="content">
+        	<h2>Bienvenido a la Aplicacion</h2>
+            <h3>Su usuario y password son válidos</h3>
+        </div>
+		<center>
+        	<img src="ic_launcher.png" width="240" height="225"/>
+            <div>
+            	<a href="#" id ="botonSalir" data-role="button" data-theme="b">
+                	Salir del sistema
+                </a>
+            </div>
+        </center>        
+    </div>
+    
+    	<script>
+			$('#botonLogin').click(function()
+				{
+					Entrar();
+				});
+				$('#botonSalir').click(function()
+				{
+					salirSistema();
+				});
+			function Entrar(){
+				var usuario =$("#txtusuario").val();
+					var password =$("#txtclave").val();
+					var ruta = "http://localhost:88/PROYECTOJQUERYYPHONEGAP/CONTROLADOR/UsuarioControlador.php?jsoncallback=?"
+					
+					$.getJSON(ruta,{usuario:usuario, password:password}).done(function(respuestaServer){
+						
+						alert(respuestaServer.mensaje+"\nGenerado en: "+respuestaServer.hora+"\n"+respuestaServer.generador);
+						
+					if(respuestaServer.validacion=="ok"){
+						$.mobile.changePage("#home")
+					}else{
+						LimpiarCampos();
+					}
+					});
+			}
+			function LimpiarCampos(){
+				$("#txtusuario").val("");
+				$("#txtclave").val("");
+				$("#txtusuario").focus();
+			}
+			
+			function salirSistema(){
+				$("#txtusuario").val("");
+				$("#txtclave").val("");
+				$("#txtusuario").focus();
+			}
+		</script>
+	</body>
+</html>
