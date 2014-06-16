@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UTPMatricula</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="facultad">
+        <item>Ing de Sistemas</item>
+        <item>Derecho</item>
+        <item>Ing Naviera</item>
+        <item>Ing Pesquera</item>
+        <item>Contabilidad</item>
+    </string-array>
+
+    <string name="title_activity_secundario">Secundario</string>
+
+</resources>
